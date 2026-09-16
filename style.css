@@ -28,6 +28,7 @@ header a {
     padding: 4px;
     border: 1px solid #F9FAF8;
     border-radius: 8px;
+    font-size: 20px;
 }
 header a:hover, a:focus {
     color: #F9FAF8;
@@ -40,14 +41,20 @@ header a:hover, a:focus {
 }
 main article {
     text-align: center;
-    border: 2px solid #1F2937;
+    border: 3px solid #1F2937;
     border-radius: 8px;
     margin: 50px auto;
-    max-width: 900px;
-    background-color: antiquewhite;
+    max-width: 800px;
+    background-color: #acbef2;
+}
+article img {
+    width: 200px;
+    border: 3px solid #1F2937;
+    border-radius: 8px;
 }
 main p, h2 {
-    color: #1F2937;
+    color: #F9FAF8;
+    font-size: 28px;
 }
 footer {
     text-align: center;
