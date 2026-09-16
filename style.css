@@ -30,7 +30,7 @@ header a {
     border-radius: 8px;
     font-size: 20px;
 }
-header a:hover, a:focus {
+header a:hover, header a:focus {
     color: #F9FAF8;
     background-color: gray;
     text-decoration: none;
@@ -52,9 +52,20 @@ article img {
     border: 3px solid #1F2937;
     border-radius: 8px;
 }
-main p, h2 {
+#myProjectsLink {
     color: #F9FAF8;
     font-size: 28px;
+    margin-bottom: 28px;
+    display: inline-block;
+    text-decoration: none;
+}
+#myProjectsLink:hover, #myProjectsLink:focus {
+    text-decoration: underline;
+}
+main p, main h2 {
+    color: #F9FAF8;
+    font-size: 28px;
+    margin: 28px;
 }
 footer {
     text-align: center;
@@ -63,4 +74,8 @@ footer {
 footer p {
     padding: 30px 0;
     color: #F9FAF8;
+    margin: 0;
+}
+main div {
+    margin: 1000px;
 }
