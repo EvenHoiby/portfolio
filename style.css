@@ -2,9 +2,16 @@ body {
     margin: 0;
     background-color: #f3f1ee;
 }
+
+
 header {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 25px 0;
 }
 #logo {
     margin: 0 auto;
@@ -13,12 +20,17 @@ header {
     color: #F9FAF8;
     text-decoration: none;
     display: inline-block;
+    position: absolute;
+    left: 5px;
+}
+header nav {
+    display: inline-block;
+    margin: 0 auto;
 }
 header ul {
     list-style-type: none;
-    padding: 20px;
     margin: 0;
-    text-align: center;
+    padding: 0;
 }
 header li {
     display: inline;
@@ -42,6 +54,8 @@ ul a:hover, ul a:focus {
     border: 1px solid #F9FAF8;
     border-radius: 8px;
 }
+
+
 main article {
     text-align: center;
     border: 3px solid #1F2937;
@@ -70,6 +84,8 @@ main p, main h2 {
     font-size: 28px;
     margin: 28px;
 }
+
+
 footer {
     text-align: center;
     background-color: #1F2937;
